@@ -1,0 +1,83 @@
+.header-part{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 99%;
+    height: 150px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    .title{
+        display: flex;
+        position: relative;
+        font-size: 2.5rem;
+        // left: 40px;
+    }
+    .sub-title{
+        display: flex;
+        position: relative;
+        font-size: 1.5rem;
+        // left: 15px;
+        // left: 55px;
+    }
+    .header-links{
+        display: flex;
+        position: relative;
+        top: 25px;
+        // left: 35px;
+    }
+    i{
+        display: flex;
+        margin-left: 20px;
+    }
+    .email-text{
+        display: flex;
+        position: relative;
+        width: 130px;
+        left: 3px;
+        overflow-wrap: break-word;
+    }
+    .email-text1{
+        display: flex;
+        position: relative;
+        width: 80px;
+        left: 3px;
+        overflow-wrap: break-word;
+    }
+    .fab{
+        position: relative;
+        top: 5px;
+        right: 2px;
+        
+    }
+    .fab1{
+        position: relative;
+        top: 2px;
+        left: 10px;
+        font-size: 20px;
+    }
+    .fab2{
+        position: relative;
+        left: 15px;
+    }
+    .frist-link{
+        display: flex;
+        flex-direction: row;
+        margin-right: 15px;
+    }
+    .second-link{
+        display: flex;
+        flex-direction: row;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .thired-link{
+        display: flex;
+        flex-direction: row;
+        margin-right: 15px;
+    }
+
+
+}

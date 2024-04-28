@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
+
+.side-bar {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    border-left: 2px solid rgb(173, 173, 173);
+
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+    .header {
+        display: flex;
+        position: relative;
+        width: 100%;
+        font-size: 25px;
+        font-family: "Faustina", serif;
+
+    }
+
+    .personal-data {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        height: 38%;
+        border-bottom: 2px solid rgb(173, 173, 173);
+        margin-bottom: 20px;
+
+        .info {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .links {
+            width: 92%;
+            overflow-wrap: break-word;
+        }
+    }
+
+    .skills {
+        display: flex;
+        height: 37%;
+        position: relative;
+        flex-direction: column;
+        border-bottom: 2px solid rgb(173, 173, 173);
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+
+        ul {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            // list-style-type: none;
+            font-size: 18px;
+
+
+            li {
+                margin: 3px;
+
+            }
+        }
+
+    }
+
+    .Lang {
+        display: flex;
+        position: relative;
+        // left: -5px;
+        flex-direction: column;
+        width: 100%;
+        border-bottom: 2px solid rgb(173, 173, 173);
+        height: 25%;
+    }
+
+    ul {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        font-size: 22px;
+        margin-bottom: 31px;
+
+
+        li {
+            margin: 2px;
+
+        }
+    }
+
+}

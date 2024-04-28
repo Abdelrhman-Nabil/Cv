@@ -1,0 +1,85 @@
+.project-page {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+
+    .project-page-header {
+        display: flex;
+        position: relative;
+        width: 100%;
+        left: 15px;
+        font-size: 25px;
+        font-family: "Faustina", serif;
+    }
+
+    .projects-data {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+
+        .frist-project {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            left: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-bottom: 2px solid rgb(173, 173, 173);
+
+            .project-header {
+                display: flex;
+                position: relative;
+                flex-direction: column;
+                font-size: 19px;
+            }
+        }
+
+        .second-project {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            left: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-bottom: 2px solid rgb(173, 173, 173);
+
+            .project-header {
+                display: flex;
+                position: relative;
+                flex-direction: column;
+                font-size: 19px;
+            }
+
+        }
+
+        .thired-project {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            left: 20px;
+            border-bottom: 2px solid hsl(0, 0%, 50%);
+            .project-header {
+                display: flex;
+                position: relative;
+                flex-direction: column;
+                font-size: 19px;
+            }
+        }
+
+    }
+    text{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    ol{
+        margin-top: 5px;
+    }
+    ol li{
+        margin-top: 5px;
+    }
+    .last{
+        display: flex;
+        margin-bottom: -6px;    }
+}

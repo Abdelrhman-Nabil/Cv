@@ -12,7 +12,7 @@ const Home = () => {
       </div>
       <div className="zero-part">
       <text className="part-header">Summary</text><br/>
-        <p>a Proficient front-end developer effective at developing strong websites that achieve customer objectives.  Well-versed in using [HTML], [CSS], [javaScript], and work by framework [React ]as well as other resources to accomplish design requirements.
+        <p>a Proficient front-end developer effective at developing strong websites that achieve customer objectives.  Well-versed in using [HTML], [CSS], [javaScript], and work by framework [React]as well as other resources to accomplish design requirements.
 
         </p>
       </div>
@@ -33,12 +33,5 @@ const Home = () => {
   );
 };
 export default Home;
-/**
+
  
-<div className="thired-part">
-        <Education />
-      </div>
-      <div className="forth-part">
-        <Project />
-      </div>
- */

@@ -8,7 +8,6 @@
   display: flex;
   position: relative;
   padding: 24px;
-  background-color: lightgrey;
   border-bottom: 2px solid hsl(0, 0%, 50%);
     .part-header{
     display: flex;
@@ -30,7 +29,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    background-color: lightgrey;
+    // background-color: lightgrey;
   }
   .frist-element{
     display: flex;

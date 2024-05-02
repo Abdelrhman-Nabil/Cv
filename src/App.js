@@ -7,6 +7,7 @@ function App() {
       <Route index element={<Home/>}/>
  
     </Routes>
+
 )
 }
 

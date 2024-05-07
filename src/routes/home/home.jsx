@@ -2,7 +2,7 @@ import Header from "../header/header";
 import SideBar from "../sidebar/sideBar";
 import Education from "../../component/education/education";
 import "./home.scss";
-import Project from "../../component/project/project";
+import Project from "../../component/project/project1";
 
 const Home = () => {
   return (

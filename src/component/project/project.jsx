@@ -10,7 +10,7 @@ const Project = () => {
           <div className="project-details">
             <text>Full Stack application with the MERN stack</text>
             <br />
-            <text>project Link : https://ecommerce-a5798.web.app</text>
+            <text>project Link : https://ecommerce-ana1.web.app/</text>
             <br />
             <text>
               - This application can be used as a client or administrator

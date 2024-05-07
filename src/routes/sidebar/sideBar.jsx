@@ -34,7 +34,7 @@ const SideBar = () => {
         </div>
         <div className="info">
           <text className="label">Website</text>
-          <text className="data-text">https://aen-2024.web.app/</text>
+          <text className="data-text">https://portfolio-an9875.web.app</text>
         </div>
         <div className="info">
           <text className="label">linkedin</text>

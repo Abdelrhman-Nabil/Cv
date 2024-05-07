@@ -23,7 +23,7 @@
             position: relative;
             flex-direction: column;
             left: 20px;
-            margin-top: 5px;
+            // margin-top: 5px;
             margin-bottom: 5px;
             border-bottom: 2px solid rgb(173, 173, 173);
 
@@ -32,7 +32,15 @@
                 position: relative;
                 flex-direction: column;
                 font-size: 19px;
+                font-weight: bold;
             }
+        .header-text{
+            font-size: 17px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 14px;
+        }
         }
 
         .second-project {
@@ -40,15 +48,18 @@
             position: relative;
             flex-direction: column;
             left: 20px;
-            margin-top: 5px;
-            margin-bottom: 5px;
+            // margin-top: 5px;
+            // margin-bottom: 5px;
             border-bottom: 2px solid rgb(173, 173, 173);
-
+            p{
+                font-size: 15px;
+            }
             .project-header {
                 display: flex;
                 position: relative;
                 flex-direction: column;
                 font-size: 19px;
+                font-weight: bold;
             }
 
         }
@@ -64,6 +75,10 @@
                 position: relative;
                 flex-direction: column;
                 font-size: 19px;
+                font-weight: bold;
+            }
+            p{
+                font-size: 15px;
             }
         }
 
